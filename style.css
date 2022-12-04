@@ -1,0 +1,20 @@
+:root {
+    --dark: #0482ff;
+    --dark-x: #1e2126;
+    --Light: #ffffff;
+}
+
+body{
+    font-family: 'Zen Dots', cursive;
+    font-weight: 300;
+    color: var(--Light)
+}
+
+.bg-dark { background-color: var(--dark) !important; }
+.bg-dark-x { background-color:var(--dark-x); }
+
+.form-control, .btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
